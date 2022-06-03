@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSans-Thin.otf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSansAltered-ThinSlanted.otf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSansAltered-Light.otf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSansAltered-LightSlanted.otf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSansAltered-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: url("../fonts/ObjectSans-Slanted.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSansAltered-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-MediumSlanted.otf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-Bold.otf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-BoldSlanted.otf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-Heavy.otf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-HeavySlanted.otf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSansAltered-Black.otf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../fonts/ObjectSans-BlackSlanted.otf");
+    font-weight: 800;
+    font-style: italic;
+}

@@ -1,0 +1,43 @@
+@import "./CSS/font-face.css";
+@import "./CSS/main-mobile.css";
+@import "./CSS/main-dt.css";
+
+/* 
+TABLE OF CONTENTS:
+1 - VARIABLES
+2 - GLOBAL ELEMENTS
+3 - HEADER
+4 - MAIN
+5 - FOOTER
+6 - DESKTOP MEDIA BREAKPOINT
+7 - KEYFRAMES
+
+
+*/
+
+
+/* 1 - VARIABLES */
+:root {
+    --green: #00ba33;
+    --orange: #FF9C00;
+}
+
+
+/* 2 - GLOBAL ELEMENTS */
+* {
+    outline: .5px solid blue;
+}
+
+body {
+    font-family: "ObjectSans", sans-serif;
+    
+    font-variant-alternates: styleset(ss04);
+}
+
+.normal {
+    
+}
+
+.medium {
+    font-style: italic;
+}
