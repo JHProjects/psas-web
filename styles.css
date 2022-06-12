@@ -108,6 +108,7 @@ h5 {
 
 a {
     text-decoration: none;
+    color: unset;
 }
 
 a:visited {
