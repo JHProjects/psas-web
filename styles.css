@@ -269,6 +269,20 @@ header {
     margin: 0px .2rem;
 }
 
+.baner-2 {
+    background: url(img/cerpaci-stanice-psas.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.baner-2 > button {
+    background: var(--orange);
+}
+
+.baner-3 {
+    background: url(img/dsc7932.jpg) center no-repeat;
+    background-size: cover;
+}
+
 .aktuality {
     margin: 0 var(--margin-mobile)
 }
