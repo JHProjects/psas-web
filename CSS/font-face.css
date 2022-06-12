@@ -70,7 +70,7 @@
 
 @font-face {
     font-family: 'ObjectSans';
-    src: url("../fonts/ObjectSans-Heavy.otf");
+    src: url("../fonts/ObjectSansAltered-Heavy.otf");
     font-weight: 700;
     font-style: normal;
 }
@@ -84,7 +84,7 @@
 
 @font-face {
     font-family: 'ObjectSans';
-    src: url("../fonts/ObjectSansAltered-Black.otf");
+    src: url("../fonts/ObjectSans-Black.otf");
     font-weight: 800;
     font-style: normal;
 }
