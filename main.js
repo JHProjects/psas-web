@@ -121,7 +121,6 @@ function animationLogic() {
 
 animationLogic()
 
-// ďelete
-sessionStorage.clear()
+
 
 
