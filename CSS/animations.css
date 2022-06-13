@@ -52,13 +52,13 @@
     to {transform: rotate3d(0, 1, 0, -180deg);
         filter: brightness(100%) 
     }
-}
+} 
 
 @keyframes no-overflow {
     form {overflow: hidden;}
     to {overflow: visible;}
 }
-
+ 
 @keyframes head-flip {
     from {
         transform: translateY(0) scaleY(1);
@@ -97,4 +97,11 @@
     95% {transform: scale(1) translateY(40px); opacity: 0; }
 
     to {transform: scale(1) translateY(0px); opacity: 1; }
+}
+
+@keyframes rotation-fake {
+    from {transform: rotate3d(1, 1, 0, 0deg)}
+    30% {transform: rotate3d(1, 1, 0, -25deg)}
+    to {transform: rotate3d(1, 1, 0, 10deg)}
+    
 }

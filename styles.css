@@ -224,7 +224,7 @@ header {
 
 .loading-graphic {
     transform-style: preserve-3d;
-    animation: rotation-1 4s ease-in-out 2; 
+    animation: rotation-1 4s ease-in-out 2, rotation-fake 4s ease-in-out 1 8s; 
 }
 
 .loading-graphic svg {
