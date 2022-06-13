@@ -1,0 +1,100 @@
+@keyframes fade-out {
+    from {opacity: 1; visibility: visible;}
+    85% {opacity: 1; visibility: visible;}
+    to {opacity: 0; visibility: hidden;}
+}
+
+@keyframes rotation-1 {
+    form {transform: rotate3d(0, 0, 0, 0);
+            
+    }
+    6% {}
+    10% {transform: rotate3d(0, 1, 0, -7deg)}
+    25% {filter: brightness(100%)}
+    41% {filter: brightness(75%)}
+    42% {filter: brightness(115%)}
+    54% {filter: brightness(100%)}
+    69% {filter: brightness(75%)}
+    70% {filter: brightness(115%)}
+
+
+    to {transform: rotate3d(0, 1, 0, 360deg);
+        filter: brightness(100%)
+    }
+}
+
+@keyframes rotation-2 {
+    from {filter: brightness(100%)}
+    20% {filter: brightness(110%);
+        transform: rotate3d(0, 1, 0, -50deg);
+    }
+    30% {transform: rotate3d(0, 1, 0, 60deg);
+        filter: brightness(80%)}
+    40% {transform: rotate3d(0, 1, 0, 20deg);
+        filter: brightness(95%)
+    }
+
+    90% {transform: rotate3d(0, 1, 0, 0deg);}
+    to {
+        transform: rotate3d(0, 1, 0, 0deg);
+        filter: brightness(100%);
+    }
+}
+
+@keyframes rotation-3 {
+    from {filter: brightness(100%)}
+    10% {transform: rotate3d(0, 1, 0, 30deg);
+        filter: brightness(95%) 
+    }
+    23% {filter: brightness(115%)}
+    24% {filter: brightness(90%)}
+
+    to {transform: rotate3d(0, 1, 0, -180deg);
+        filter: brightness(100%) 
+    }
+}
+
+@keyframes no-overflow {
+    form {overflow: hidden;}
+    to {overflow: visible;}
+}
+
+@keyframes head-flip {
+    from {
+        transform: translateY(0) scaleY(1);
+    }
+    15% {
+        transform: translateY(4px) scaleY(.8) rotate3d(1, 0, 0, -30deg)
+    }
+    25% {transform: translateY(-5px) rotate3d(1, 0, 0, 180deg);}
+    
+    40% {transform: translateY(0px);}
+
+    
+
+    80% {
+        transform: translateY(1px) scale(1.05);
+    }
+    to {
+        transform: translateY(0) scaleX(1);
+    }
+}
+
+@keyframes cute-hop {
+    from {transform: scale(1) translateY(0)}
+    10% {transform: scale(.95) translateY(0)}
+    50% {transform: scale(1.5) translateY(0)}
+    90% {transform: scale(.95) translateY(0)}
+    to {transform: scale(1) translateY(0)}
+    
+}
+
+@keyframes hide-and-change {
+    from {transform: scale(1) translateY(0); opacity: 1}
+    80% {transform: scale(1) translateY(0);
+        opacity: 1;     
+    }
+    95% {transform: scale(1) translateY(40px); opacity: 0; }
+
+    to {transform: scale(1) translateY(0px); opacity: 1; }
+}

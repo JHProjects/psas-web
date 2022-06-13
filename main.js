@@ -97,3 +97,29 @@ function setPositionByIndex() {
     indicators[currentIndex].classList.add("indicator-active")
     setSliderPosition()
 }
+
+
+
+// loading animation
+function animationLogic() {
+    if (sessionStorage.getItem("hasAnimationRan")) {
+        document.querySelector(".loading-overlay").classList.remove("loading-animation")
+        document.querySelector("body").classList.remove("no-overflow")
+    } else {
+        sessionStorage.setItem("hasAnimationRan", "true")
+        document.querySelector("body").style.overflow = "hidden"
+        // document.querySelector(".loading-bar").style.overflow = "hidden"
+        setTimeout(e => {
+            document.querySelector(".loading-bar").innerHTML = `<p>Vítejte!</p>`
+        }, 8300)
+        setTimeout((e) => {
+            document.querySelector("body").style.overflow = "initial"
+        }, 10000)
+        
+    }
+}
+
+animationLogic()
+
+
+

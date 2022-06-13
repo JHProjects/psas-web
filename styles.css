@@ -1,6 +1,7 @@
 @import "./CSS/font-face.css";
 @import "./CSS/main-mobile.css";
 @import "./CSS/main-dt.css";
+@import "./CSS/animations.css";
 
 /* 
 TABLE OF CONTENTS:
@@ -185,6 +186,105 @@ header {
  
 
  /* 4 - MAIN */
+
+ /* loading overlay */
+.loading-overlay {
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+    padding-bottom: 17%;
+    background: rgba(255, 255, 255, 0.952);
+    opacity: 1;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    perspective: 12cm;
+}
+
+.loading-animation {
+    animation: fade-out 12s ease-in;
+}
+
+.loading-overlay p {
+    margin: 120px auto 0 auto;
+    font-size: 24px;
+    
+    font-weight: 500;
+    letter-spacing: -.02em;
+}
+
+.test {
+    width: 120px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+}
+
+
+
+.loading-graphic {
+    transform-style: preserve-3d;
+    animation: rotation-1 4s ease-in-out 2; 
+}
+
+.loading-graphic svg {
+    overflow: visible;
+    transition: linear;
+    height: clamp(340px, 70vw, 6000px);
+    width: clamp(340px, 70vw, 600px);
+    /* filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.178)); */
+}
+
+.loading-graphic path:nth-child(2) {
+    animation: 
+    rotation-2 4s ease-in-out 2,
+    rotation-3 4s cubic-bezier(0.23, 1, 0.320, 1) 8s;
+    
+    transform-origin: 50% 50%;
+}
+
+.loading-graphic path:nth-child(1) {
+    animation: head-flip 4s ease-in-out 8s;
+    transform-origin: 50% 10%;
+}
+
+.loading-bar {
+    position: absolute; bottom: 30px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    overflow: visible !important;
+    animation: hide-and-change 9s ease-in-out 1;
+}
+
+.loading-bar .dot {
+    width: 8px;
+    height: 8px;
+    background: var(--grey);
+    border-radius: 50%;
+}
+
+.loading-bar .dot:nth-child(1) {
+    animation: cute-hop 2.5s ease-out 0s infinite; 
+}
+.loading-bar .dot:nth-child(2) {
+    animation: cute-hop 2.5s ease-out .5s infinite; 
+}
+.loading-bar .dot:nth-child(3) {
+    animation: cute-hop 2.5s ease-out 1s infinite; 
+}
+
+
+
+
+
+
+.no-overflow {
+    animation: no-overflow 12s linear;
+}
+
+
+/* main content */
 .image-slider {
     overflow: hidden;
 }
