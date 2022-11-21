@@ -114,6 +114,7 @@ function animationLogic() {
         }, 8300)
         setTimeout((e) => {
             document.querySelector("body").style.overflow = "initial"
+            location.reload()
         }, 10000)
         
     }
