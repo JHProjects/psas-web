@@ -106,7 +106,7 @@ function animationLogic() {
         document.querySelector(".loading-overlay").classList.remove("loading-animation")
         document.querySelector("body").classList.remove("no-overflow")
     } else {
-        sessionStorage.setItem("hasAnimationRan", "true")
+        // sessionStorage.setItem("hasAnimationRan", "true")
         document.querySelector("body").style.overflow = "hidden"
         // document.querySelector(".loading-bar").style.overflow = "hidden"
         setTimeout(e => {
